@@ -26,3 +26,9 @@
 <p>Respuesta:</p>
 
 <img src="img/1.2.png">
+
+<p><b>2. Explica el siguiente diagrama de secuencia. ¿Lo consideras válido? ¿Lo modificarías de alguna forma?</b></p>
+
+<img src="img/2.1.png">
+
+<p><b>3. Dibuja un diagrama de secuencia que nos explique el funcionamiento que tiene un usuario de un metro en cuanto a la venta de tickets de metro. Deberá existir un actor y dos objetos llamados "venta de tickets" y "tickets".</b></p>
