@@ -41,3 +41,4 @@
 
 <p><b>3. Dibuja un diagrama de secuencia que nos explique el funcionamiento que tiene un usuario de un metro en cuanto a la venta de tickets de metro. Deberá existir un actor y dos objetos llamados "venta de tickets" y "tickets".</b></p>
 
+<img src="img/3.png">
