@@ -19,8 +19,18 @@
   }
 </style>
 
-<h1>EJERCICIO FINAL</h1>
+<h1>EJERCICIO FINAL - CHRISTIAN MILLÁN</h1>
 
 <hr>
 
 <p><b>1.</b></p>
+
+<img src="img/1.png">
+
+<p><b>2.</b></p>
+
+<img src="img/2.png">
+
+<p><b>3.</b></p>
+
+<img src="img/3.png">
