@@ -19,7 +19,7 @@
   }
 </style>
 
-<h1>EJERCICIO FINAL - CHRISTIAN MILLÁN</h1>
+<h1>EJERCICIO FINAL</h1>
 
 <hr>
 
