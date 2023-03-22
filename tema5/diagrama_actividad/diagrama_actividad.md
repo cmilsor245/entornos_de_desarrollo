@@ -23,3 +23,6 @@
 
 <hr>
 
+<img id="ex" src="img/diagrama.png">
+
+<p></p>
