@@ -39,4 +39,8 @@
 
 <p>Según se puede ver el este diagrama, es necesario estar registrado para poder realizar un pedido, por lo que después de comprobar el socio existen dos opciones de continuar:</p>
 
-<li></li>
+<li>Registrarse para ser socio si no se es uno ya.</li>
+
+<li>Pasar directamente a comprobar los datos bancarios del socio, ya que ya está registrado.</li>
+
+<p>Además, si se ha tenido que tomar la primera opción (la de registrarse), después de terminar el registro se pasa automáticamente a la comprobación de los datos bancarios.</p>
