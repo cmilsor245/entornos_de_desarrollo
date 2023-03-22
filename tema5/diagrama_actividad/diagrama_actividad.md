@@ -44,3 +44,15 @@
 <li>Pasar directamente a comprobar los datos bancarios del socio, ya que ya está registrado.</li>
 
 <p>Además, si se ha tenido que tomar la primera opción (la de registrarse), después de terminar el registro se pasa automáticamente a la comprobación de los datos bancarios.</p>
+
+<p>De nuevo, nos encontramos con varias bifurcaciones:</p>
+
+<li>Los datos bancarios son correctos, por lo que se pasa a realizar el pago del pedido. El vendedor prepara el pedido para almacén y el estado del pedido pasa a ser "pendiente". Termina el diagrama.</li>
+
+<li>Los datos bancarios son incorrectos, por lo que se pide que se rellenen los datos bancarios de nuevo.</li>
+
+<p>Por último, en esta segunda opción (los datos bancarios son incorrectos), existen otras dos posibilidades:</p>
+
+<li>Se intenta la corrección de los datos bancarios para poder pasar a pagar el pedido una vez sean correctos.</li>
+
+<li>Se cancela el pedido para no realizar ningún pago y no comprar ningún artículo finalmente. El estado del pedido pasa a ser "cancelado".</li>
