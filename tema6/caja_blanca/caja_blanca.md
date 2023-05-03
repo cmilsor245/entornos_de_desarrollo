@@ -85,8 +85,14 @@ fin algoritmo
 
 <p><b>2. ¿Qué diferencia existe entre las pruebas de caja blanca y las de caja negra? En el ejemplo anterior, ¿en qué consistirían?</b></p>
 
-<p>Las pruebas de caja blanca y las pruebas de caja negra son dos enfoques diferentes para realizar pruebas de software. La principal diferencia entre ambas radica en su enfoque de prueba.</p>
+<p>Las pruebas de caja blanca y las de caja negra son dos enfoques diferentes para realizar pruebas de software.</p>
 
-<p>Las pruebas de caja blanca se enfocan en la estructura interna del código fuente, es decir, su lógica, su diseño y su implementación. En este enfoque, el probador conoce el código fuente y puede examinar los datos de entrada y las rutas del programa para determinar si el comportamiento del software es correcto.</p>
+<p>Las pruebas de caja negra se basan en probar el software desde el punto de vista del usuario final, sin conocer los detalles internos de cómo se implementa el software. En este enfoque, el software se trata como una "caja negra" y se prueban sus entradas y salidas sin considerar su funcionamiento interno. Las pruebas de caja negra se centran en evaluar si el software cumple con los requisitos funcionales y no funcionales, y si el software es fácil de usar y comprender.</p>
 
-<p>Por otro lado, las pruebas de caja negra se enfocan en el comportamiento externo del software, sin tener en cuenta cómo está diseñado o implementado el código. En este enfoque, el probador no conoce la estructura interna del código fuente y solo tiene acceso a la interfaz del software. El objetivo es probar las funcionalidades del software y sus resultados sin tener en cuenta el cómo se implementa.</p>
+<p>Por otro lado, las pruebas de caja blanca se enfocan en evaluar el software desde su funcionamiento interno y se basan en el conocimiento detallado de la implementación del software. En este enfoque, el tester conoce la estructura interna del código fuente y de la aplicación, y se asegura de que el software se ejecute según lo previsto. Las pruebas de caja blanca se centran en la cobertura de código, en la verificación de la lógica interna del software, y en la identificación de posibles problemas de rendimiento y seguridad.</p>
+
+<p>En el ejemplo anterior, las pruebas de caja blanca implicarían examinar el código fuente del algoritmo para diseñar casos de prueba que cubran todas las posibles rutas de ejecución, lo que se puede lograr mediante pruebas de cobertura de código para asegurarse de que todas las declaraciones y ramas de código se hayan ejecutado al menos una vez. Por otro lado, las pruebas de caja negra implicarían proporcionar diferentes entradas al algoritmo y verificar si las salidas corresponden a las salidas esperadas.</p>
+
+<p><b>3. ¿En qué consiste la cobertura o cubrimiento? Busca en el ejemplo 1 los diferentes tipos de coberturas que existen, si no encuentras ninguno, plantea un ejemplo adicional.</b></p>
+
+<p></p>
