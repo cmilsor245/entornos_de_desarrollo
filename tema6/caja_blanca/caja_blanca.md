@@ -26,5 +26,29 @@
 <p><b>1. Si tenemos el siguiente algoritmo, que averigua si un número es primo o no:</b></p>
 
 ```
+algoritmo primos
+  escribir "Numero: "
+  leer num
 
+  cont<-2;
+  swPrimo<-'V'
+
+  mientras((cont<=(num/2))y(swPrimo == 'V'))hacer
+    si((num mod cont)==0)entonces
+      swPrimo<-F
+    fin si
+
+    cont<-cont+1
+  fin mientras
+
+  si(swPrimo=='V')entonces
+    escribir num, " SI es primo"
+  sino
+    escribir num, " NO es primo"
+  fin si
+fin algoritmo
 ```
+
+<p><b>Indica varios casos de prueba posibles, así como algún procedimiento de prueba.</b></p>
+
+<p></p>
