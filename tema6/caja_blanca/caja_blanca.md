@@ -82,3 +82,11 @@ fin algoritmo
 <li>Paso 8: Repetir los pasos 5 a 7 con otros números que no sean primos para asegurarse de que el algoritmo los identifique correctamente.</li>
 
 <li>Paso 9: Asegurarse de que el algoritmo no tenga errores de lógica para cualquier número de entrada mediante el análisis del código fuente y la verificación de los cálculos realizados en el código.</li>
+
+<p><b>2. ¿Qué diferencia existe entre las pruebas de caja blanca y las de caja negra? En el ejemplo anterior, ¿en qué consistirían?</b></p>
+
+<p>Las pruebas de caja blanca y las pruebas de caja negra son dos enfoques diferentes para realizar pruebas de software. La principal diferencia entre ambas radica en su enfoque de prueba.</p>
+
+<p>Las pruebas de caja blanca se enfocan en la estructura interna del código fuente, es decir, su lógica, su diseño y su implementación. En este enfoque, el probador conoce el código fuente y puede examinar los datos de entrada y las rutas del programa para determinar si el comportamiento del software es correcto.</p>
+
+<p>Por otro lado, las pruebas de caja negra se enfocan en el comportamiento externo del software, sin tener en cuenta cómo está diseñado o implementado el código. En este enfoque, el probador no conoce la estructura interna del código fuente y solo tiene acceso a la interfaz del software. El objetivo es probar las funcionalidades del software y sus resultados sin tener en cuenta el cómo se implementa.</p>
