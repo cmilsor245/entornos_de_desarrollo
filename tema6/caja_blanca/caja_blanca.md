@@ -33,7 +33,7 @@ algoritmo primos
   cont<-2;
   swPrimo<-'V'
 
-  mientras((cont<=(num/2))y(swPrimo == 'V'))hacer
+  mientras((cont<=(num/2))y(swPrimo=='V'))hacer
     si((num mod cont)==0)entonces
       swPrimo<-F
     fin si
@@ -94,5 +94,72 @@ fin algoritmo
 <p>En el ejemplo anterior, las pruebas de caja blanca implicarían examinar el código fuente del algoritmo para diseñar casos de prueba que cubran todas las posibles rutas de ejecución, lo que se puede lograr mediante pruebas de cobertura de código para asegurarse de que todas las declaraciones y ramas de código se hayan ejecutado al menos una vez. Por otro lado, las pruebas de caja negra implicarían proporcionar diferentes entradas al algoritmo y verificar si las salidas corresponden a las salidas esperadas.</p>
 
 <p><b>3. ¿En qué consiste la cobertura o cubrimiento? Busca en el ejemplo 1 los diferentes tipos de coberturas que existen, si no encuentras ninguno, plantea un ejemplo adicional.</b></p>
+
+<p>La cobertura o cubrimiento es una medida que se utiliza para evaluar la calidad de las pruebas realizadas en un programa. Consiste en medir qué porcentaje del código ha sido ejecutado durante la realización de las pruebas.</p>
+
+<p>En el ejemplo 1, se podrían aplicar diferentes tipos de coberturas, por ejemplo:</p>
+
+<li>Cobertura de sentencias: en este caso, se evalúa si se han ejecutado todas las sentencias del código. En el ejemplo, se debería verificar que se han ejecutado todas las sentencias dentro del bucle mientras, así como las sentencias condicionales dentro del mismo.</li>
+
+<li>Cobertura de ramas: este tipo de cobertura evalúa si se han evaluado todas las condiciones posibles de las sentencias condicionales. En el ejemplo, se debería verificar que se han evaluado tanto la rama verdadera como la falsa del condicional dentro del bucle mientras.</li>
+
+<li>Cobertura de condiciones: este tipo de cobertura evalúa si se han evaluado todas las combinaciones posibles de las condiciones en las sentencias condicionales. En el ejemplo, se debería verificar que se han evaluado tanto la condición num mod cont==0 como su negación.</li>
+
+<p>La elección de qué tipo de cobertura aplicar dependerá del objetivo de las pruebas y del código que se esté evaluando. Por ejemplo, si se quiere evaluar la robustez del código, es posible que sea más relevante aplicar una cobertura de condiciones.</p>
+
+<p><b>5. Utilizando la técnica de caja blanca del "Camino básico", obtén el grafo, el número d complejidad ciclomática y los casos de prueba del siguiente agoritmo:</b></p>
+
+```java
+public static int contarLetras(char cadena[], char caracter){
+  int contador=0, n=0, lon=cadena.length;
+
+  if(lon>0){
+    do{
+      if(cadena[contador]==caracter){
+        n++;
+      }
+
+      contador++;
+      lon--;
+    }while(lon>0);
+  }
+
+  return n;
+}
+```
+
+<p>Grafo:</p>
+
+<p>Casos de prueba posibles:</p>
+
+<li>Caso de prueba 1: cadena vacía, caracter no importa. En este caso, se espera que la función devuelva 0.</li>
+
+<li>Caso de prueba 2: cadena con un solo carácter que no coincide con el caracter buscado. En este caso, se espera que la función devuelva 0.</li>
+
+<li>Caso de prueba 3: cadena con un solo carácter que coincide con el caracter buscado. En este caso, se espera que la función devuelva 1.</li>
+
+<li>Caso de prueba 4: cadena con varios caracteres, pero ninguno coincide con el caracter buscado. En este caso, se espera que la función devuelva 0.</li>
+
+<li>Caso de prueba 5: cadena con varios caracteres, algunos de los cuales coinciden con el caracter buscado. En este caso, se espera que la función devuelva el número de caracteres que coinciden con el caracter buscado.</li>
+
+<p><b>6. Cuando tenemos condiciones lógicas compuestas se nos complica un poco más la forma de obtener el grafo. El siguiente esquema lo resume de forma bastante clara:</b></p>
+
+<img src="img/1.png">
+
+<p><b>Utilizando la técnica del "Camino básico", intenta obtener el grafo, el número de complejidad ciclomática y los casos de prueba del siguiente algoritmo que calcula la media aritmética de 2 números:</b></p>
+
+```java
+public static void mediaDosNumeros(int x, int y){
+  float media=0;
+
+  if((x<0)||(y<0)){
+    System.out.print("'x' e 'y' deben ser positivos.");
+  }else{
+    media=(x+y)/2.0f;
+
+    System.out.print("La media es:"+media+".");
+  }
+}
+```
 
 <p></p>
