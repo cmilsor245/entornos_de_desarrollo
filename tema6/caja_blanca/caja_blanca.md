@@ -162,4 +162,30 @@ public static void mediaDosNumeros(int x, int y){
 }
 ```
 
-<p></p>
+<p>Grafo:</p>
+
+<p>Posibles casos de prueba:</p>
+
+<li>Caso de prueba válido: Ingresar los números 2 y 4.</li>
+
+<li>Caso de prueba válido: Ingresar los números 10 y 20.</li>
+
+<li>Caso de prueba inválido: Ingresar los números -5 y 10.</li>
+
+<p>En cuanto al procedimiento de prueba, podríamos seguir los siguientes pasos:</p>
+
+<li>Ingresar dos números positivos como entrada, por ejemplo, 4 y 6.</li>
+
+<li>Ejecutar el algoritmo.</li>
+
+<li>Verificar que el resultado de la media sea 5.</li>
+
+<li>Repetir los pasos 1 a 3 con otros pares de números positivos para asegurarse de que el algoritmo calcule la media correctamente.</li>
+
+<li>Ingresar un número negativo y un número positivo como entrada, por ejemplo, -5 y 10.</li>
+
+<li>Ejecutar el algoritmo.</li>
+
+<li>Verificar que el algoritmo indique que los números deben ser positivos.</li>
+
+<li>Repetir los pasos 5 a 7 con otros pares de números que incluyan al menos un número negativo para asegurarse de que el algoritmo valide correctamente la entrada.</li>
