@@ -270,10 +270,6 @@ public static void mediaDosNumeros(int x, int y){
 
 <img src="img/5.png">
 
-
-
-<hr>
-
 <p>Posibles casos de prueba:</p>
 
 <li>Caso de prueba válido: Ingresar los números 2 y 4.</li>
