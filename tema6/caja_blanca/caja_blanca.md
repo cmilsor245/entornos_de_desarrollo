@@ -63,7 +63,7 @@ fin algoritmo
 
 <li>Caso de prueba válido: Ingresar el número 29, que es un número primo.</li>
 
-<p>Un posible procedimiento de prueba para verificar que el argoritmo funciona correctamente sería el siguiente (por pasos):</p>
+<p>Un posible procedimiento de prueba para verificar que el algoritmo funciona correctamente sería el siguiente (por pasos):</p>
 
 <li>Paso 1: Ingresar un número primo como entrada, por ejemplo, 7.</li>
 
