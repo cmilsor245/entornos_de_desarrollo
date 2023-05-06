@@ -130,6 +130,108 @@ public static int contarLetras(char cadena[], char caracter){
 
 <p>Grafo:</p>
 
+<img src="img/2.png">
+
+<img src="img/3.png">
+
+<p>Supongamos que tenemos una cadena de caracteres "hola mundo" y queremos contar la cantidad de letras "o" que hay en ella.</p>
+
+<li>Paso 1: int contador=0, n=0, lon=cadena.length;</li>
+
+<p>Este paso simplemente inicializa las variables contador, n y lon. No hay posibles casos de prueba para este paso.</p>
+
+<hr>
+
+<li>Paso 2: if(lon>0){</li>
+
+<p>Este paso comprueba si la cadena tiene al menos un caracter. Si la longitud de la cadena es mayor que cero, se ejecuta el bloque de código siguiente.</p>
+
+<p>Posibles casos de prueba:</p>
+
+<li>Si la cadena está vacía, entonces lon será igual a cero y no se ejecutará el bloque de código siguiente.</li>
+
+<p>cadena = "", caracter = "o"</p>
+
+<p>Resultado esperado: 0</p>
+
+<li>Si la cadena tiene al menos un caracter, entonces lon será mayor que cero y se ejecutará el bloque de código siguiente.</li>
+
+<p>cadena = "hola mundo", caracter = "o"</p>
+
+<p>Resultado esperado: Continuar con el siguiente paso.</p>
+
+<hr>
+
+<li>Paso 3: do{</li>
+
+<p>Este paso inicia un ciclo "do-while" que se ejecutará al menos una vez.</p>
+
+<p>No hay posibles casos de prueba para este paso.</p>
+
+<hr>
+
+<li>Paso 4: if(cadena[contador]==caracter){</li>
+
+<p>Este paso comprueba si el caracter en la posición "contador" de la cadena es igual al caracter que se desea contar. Si es así, se incrementa la variable "n".</p>
+
+<p>Posibles casos de prueba:</p>
+
+<li>Si el caracter en la posición "contador" de la cadena no es igual al caracter que se desea contar, entonces no se incrementará la variable "n".</li>
+
+<p>cadena = "hola mundo", caracter = "z"</p>
+
+<p>Resultado esperado: 0</p>
+
+<li>Si el caracter en la posición "contador" de la cadena es igual al caracter que se desea contar, entonces se incrementará la variable "n".</li>
+
+<p>cadena = "hola mundo", caracter = "o"</p>
+
+<p>Resultado esperado: n = 2</p>
+
+<hr>
+
+<li>Paso 5: n++;</li>
+
+<p>Este paso incrementa la variable "n" si el caracter en la posición "contador" de la cadena es igual al caracter que se desea contar.</p>
+
+<p>No hay posibles casos de prueba para este paso.</p>
+
+<hr>
+
+<li>Paso 6: contador++; lon--;</li>
+
+<p>Este paso incrementa el contador y decrementa lon en cada iteración del ciclo.</p>
+
+<p>No hay posibles casos de prueba para este paso.</p>
+
+<hr>
+
+<li>Paso 7: }while(lon>0);</li>
+
+<p>Este paso termina el ciclo "do-while" cuando lon es igual a cero.</p>
+
+<p>No hay posibles casos de prueba para este paso.</p>
+
+<hr>
+
+<li>Paso 8: return n;</li>
+
+<p>Este paso devuelve la cantidad de veces que se encontró el caracter en la cadena.</p>
+
+<p>No hay posibles casos de prueba para este paso.</p>
+
+<hr>
+
+<p>En cuanto a los posibles caminos que puede tomar el algoritmo, hay dos posibles situaciones:</p>
+
+<li>En cuanto a los posibles caminos que puede tomar el algoritmo, hay dos posibles situaciones:</li>
+
+<li>Si la longitud de la cadena es igual a cero, el algoritmo no ejecutará el bloque de código siguiente y devolverá cero como resultado.</li>
+
+<p>Por lo tanto, el número de complejidad de este algoritmo es O(n). El algoritmo recorre la cadena una vez, y por cada iteración, realiza una operación constante (comparar el caracter actual con el caracter que se desea contar, incrementar el contador y decrementar la longitud de la cadena). Por lo tanto, el tiempo de ejecución del algoritmo aumenta linealmente con el tamaño de la cadena de entrada.</p>
+
+<hr>
+
 <p>Casos de prueba posibles:</p>
 
 <li>Caso de prueba 1: cadena vacía, caracter no importa. En este caso, se espera que la función devuelva 0.</li>
